@@ -270,3 +270,20 @@ footer a{
     padding-bottom: 15px;
     border-bottom: 3px solid black;
 }
+
+@media screen and (max-width: 468px) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        font-size: .9em;
+        flex-wrap: wrap;
+        
+    }
+
+    nav>a{
+
+        padding: 5px;
+    }
+    
+}
