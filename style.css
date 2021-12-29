@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+:root{
+    --fonteh1:'Passion One';
+    --fonte-do-p: 'Courgette';
+    --fonte-p: 'Sriracha';
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-family: var(--fonteh1), Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    color: white;
+    width: fit-content;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav{
+    padding: 3vh;
+}
+
+a{
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.autor{
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
+
+main{
+    padding: 5vw;
+    max-width: 45vw;
+}
+
+p{
+    line-height: 6vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    font-family: var(--fonte-do-p);
+    font-size: 3.2vw;
+}
+
+.mesmo-texto{
+    padding-bottom: 3vw;
+}
+
+.local-da-imagem{
+    box-shadow: 1px 1px 10px 2px #000000af inset;
+    background-color: #8ec9ed;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.local-da-imagem-cartas{   
+    box-shadow: 1px 1px 10px 2px #000000af inset;
+    background-color: #8ec9ed;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.p-modificado{
+    color: white;
+    background-color: #00000093;
+    border-radius: 2%;
+    font-family: var(--fonte-do-p);
+    margin-left: 5vw;
+    line-height: 6vw;
+    padding-left: 0.5vw;
+    padding-right:  0.5vw;
+    padding-top:  0.5vw;
+    padding-bottom:  0.5vw;
+    max-width: 40vw;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 1vw;
+}
